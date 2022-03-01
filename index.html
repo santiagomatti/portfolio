@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Santiago Matti - Portfolio</title>
+    <meta name="description" content="Portfolio web dedicado a la información como programador y desarrollador de software de Santiago Matti, con data sobre su experiencia académica y experiencia laboral." />
+</head>
+<body>
+    <section class="navbar__section">
+        <div class="navbar__section-container">
+            <div class="navbar__logo">
+                <span class="navbar__logo-text">Santi Matti</span>
+            </div>
+            <nav class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-list-item">
+                        <a href="#about-me" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/user-solid.svg" alt="icono usuario de aplicación para enlace sobre mi información personal">Sobre mi
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#services" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/briefcase-solid.svg" alt="icono de un maletín para enlace de servicios">Servicios
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#experiencies" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/graduation-cap-solid.svg" alt="icono de birrete para enlace de experiencia académica">Experiencia
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#my-work" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/layer-group-solid.svg" alt="icono de papeles apilados para enlace de mis trabajos">Mis trabajos
+                        </a>
+                    </li>
+                    <li class="navbar__menu-list-item">
+                        <a href="#contact" class="navbar__menu-link">
+                            <img class="navbar__menu-icon" src="assets/comments-solid.svg" alt="icono de globos de conversación para enlace a mi contacto">Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="sections">
+        <section id="banner" class="section-banner">
+            <img class="section-banner__avatar" src="assets/avatar.svg" alt="icono en flat design de un usuario con una computadora" />
+            <h1 class="section-banner__name">Santiago Matti</h1>
+            <h2 class="section-banner__profesion">Programación de Sistemas</h2>
+            <ul class="section-banner__rrss-list">
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="assets/linkedin-in-brands.svg" alt="icono para el enlace a la página linkedin" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="assets/github-brands.svg" alt="icono para el enlace a la página de github" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="assets/twitter-brands.svg" alt="icono para el enlace al perfil de twitter" /></a>
+                </li>
+                <li class="section-banner__rrss-item">
+                    <a href="#"><img class="section-banner__item-icon" src="assets/instagram-brands.svg" alt="icono para el enlace al perfil de instagram" /></a>
+                </li>
+            </ul>
+            <a href="#contact" class="button-primary">Contáctame</a>
+            <a href="#about-me" class="section-banner__scroll">
+                <span>Scroll down</span>
+                <img class="section-banner__scroll-icon" src="assets/scroll.png" alt="icono para hacer desplazarse a las siguientes secciones del sitio" />
+            </a>
+        </section>
+        <section id="about-me" class="section section-about-me">
+            <h3 class="section__subtitle">Sobre mi</h3>
+            <div class="section-about-me__container">
+                <div class="section-about-me__avatar-container">
+                    <img class="section-about-me__avatar" src="assets/avatar.svg" alt="icono en flat design de un usuario con una computadora" />
+                </div>
+                <div class="card section-about-me__card">
+                    <div class="section-about-me__card-info">
+                        <p>¡Hola! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ex dolores quis deserunt maxime veritatis, velit dolore cum quas quo quidem est nam maiores officia. Dignissimos enim eius ea sint?</p>
+                        <button class="button-primary">Ver curriculum</button>
+                    </div>
+                    <div class="section-about-me__card-skills">
+                        <div class="section-about-me__skill">
+                            <span>HTML</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--html"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>CSS</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--css"></div>
+                            </div>
+                        </div>
+                        <div class="section-about-me__skill">
+                            <span>UX/UI</span>
+                            <div class="section-about-me__skill-bar">
+                                <div class="section-about-me__skill-bar--ux"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="section section-services">
+            <h3 class="section__subtitle">Servicios</h3>
+            <div class="section-servicess__container">
+                <div class="card section-services__card section-services__card--html">
+                    <img class="section-services__picture" src="assets/dev.svg" alt="icono de una web con el simbolo de html" />
+                    <h3 class="section-services__title">HTML</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                </div>
+                <div class="card section-services__card section-services__card--css">
+                    <img class="section-services__picture" src="assets/css.svg" alt="icono de un cohete espacial relacionado a los estilos en css" />
+                    <h3 class="section-services__title">CSS</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                </div>
+                <div class="card section-services__card section-services__card--ux">
+                    <img class="section-services__picture" src="assets/ux.svg" alt="icono de una bombilla de luz que representa las ideas en el diseño y experiencia de usuario" />
+                    <h3 class="section-services__title">UX / UI</h3>
+                    <p class="section-services__description">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
+                </div>
+            </div>
+        </section>
+        <section id="experiencies" class="section section-experiences">
+            <h3 class="section__subtitle">Experiencia</h3>
+            <div class="section-experiences__container">
+                <div class="card section-experiences__card">
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                </div>
+                <div class="card section-experiences__card">
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                    <div class="section-experiences__card-content">
+                        <div class="section-experiences__card-info">
+                            <img class="section-experiences__icon" src="assets/graduation-cap.svg" alt="">
+                            <time class="section-experiences__time">2017 - 2019</time>
+                        </div>
+                        <h3 class="section-experiences__title">Academy</h3>
+                        <p class="section-experiences__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="my-work" class="section section-my-work">
+            <h3 class="section__subtitle">Mis trabajos</h3>
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-1.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-2.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-3.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-my-work__container">
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-4.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-5.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+                <div class="card section-my-work__card">
+                    <img class="section-my-work__picture" src="assets/trabajo-6.svg" alt="imagen de la web x enfocada a la venta de y">
+                    <div class="section-my-work__mask">
+                        <h3 class="section-my-work__title">Project title</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer id="contact">
+        <div class="footer-contact">
+            <h3 class="section__subtitle">Contáctame</h3>
+            <div class="footer-contact__container">
+                <div class="footer-contact__info">
+                    <h4>¡Enviame un mensaje!</h4>
+                    <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto 👋🏼</p>
+                </div>
+                <div class="footer-contact__form-container">
+                    <form class="footer-contact__form">
+                        <div class="footer-contact__form-atributes-group">
+                            <input class="form-input" type="text" name="name" placeholder="Nombre" />
+                            <input class="form-input"  type="text" name="email" placeholder="Email" />
+                        </div>
+                        <textarea class="form-input" name="message" placeholder="Mensaje"></textarea>
+                        <input type="submit" class="button-primary" value="Enviar" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
